@@ -1,0 +1,19 @@
+.card:hover {
+        transform: scale(1.06) rotate(-3deg);
+    transition: all .22s ease-in-out;
+}
+
+.card:hover span {
+opacity: 0;
+}
+
+.img{
+    overflow: clip;
+    transition: all .5s ease-in-out 0s;
+}
+
+.img:hover {
+    transition: all .5s ease-in-out 0s;
+    
+    transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+}

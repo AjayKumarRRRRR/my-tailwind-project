@@ -1,0 +1,23 @@
+.experience-card:hover {
+        transform: scale(1.06) rotate(0deg);
+    transition: all .40s ease-in-out;
+     box-shadow: 1px 1px 15px 0px #00000062;
+}
+
+.experience-card:hover h2{
+   transform: scale(1.02) rotate(0deg);
+    transition: all .45s ease-in-out;
+    font-size: 56px;
+}
+
+.smlcard:hover h3 {
+    transform: translateY(-180px);
+transition: all 1s ease-in-out;
+     opacity: 100%;
+     top: 100px;
+}
+.smlcard:hover  {
+ transform: scale(1.05) rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
